@@ -5,8 +5,14 @@
     "type": "module",
     "exports": "./.oxlintrc.json",
     "license": "MIT",
-    "repository": "github:kayahr/oxlint-config",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kayahr/oxlint-config.git"
+    },
     "funding": "https://github.com/kayahr/oxlint-config?sponsor=1",
+    "publishConfig": {
+        "access": "public"
+    },
     "scripts": {
         "test": "run test:*",
         "test:lint": "oxlint --type-aware",
