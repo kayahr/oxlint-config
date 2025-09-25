@@ -15,8 +15,8 @@
     },
     "scripts": {
         "test": "run test:*",
-        "test:lint": "oxlint --type-aware",
-        "test:spell": "cspell --no-progress"
+        "test:lint": "oxlint --type-aware --deny-warnings",
+        "test:spell": "cspell --color --no-progress"
     },
     "files": [
         ".oxlintrc.json"

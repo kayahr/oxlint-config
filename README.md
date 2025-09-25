@@ -32,7 +32,7 @@ Add the following script line to `package.json`:
 ```json
 {
     "scripts": {
-        "test:lint": "oxlint --type-aware",
+        "test:lint": "oxlint --type-aware --deny-warnings",
         "test": "npm run test:lint"
     }
 }
