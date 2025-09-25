@@ -1,7 +1,7 @@
 {
     "name": "@kayahr/oxlint-config",
     "version": "1.0.0",
-    "description": "oxlint config for @kayahr projects",
+    "description": "Shared oxlint config for @kayahr projects",
     "type": "module",
     "exports": "./.oxlintrc.json",
     "license": "MIT",

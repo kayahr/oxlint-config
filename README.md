@@ -1,5 +1,7 @@
 # @kayahr/oxlint-config
 
+[GitHub] | [NPM]
+
 Shared [oxlint] configuration for my personal TypeScript projects.
 
 ## Usage
@@ -44,5 +46,7 @@ When using the [OXC VSCode extension] extension then enable `typeAware` flag in 
 }
 ```
 
+[GitHub]: https://github.com/kayahr/oxlint-config
+[NPM]: https://www.npmjs.com/package/@kayahr/oxlint-config
 [oxlint]: https://oxc.rs/docs/guide/usage/linter
 [OXC VSCode Extension]: https://marketplace.visualstudio.com/items?itemName=oxc.oxc-vscode
