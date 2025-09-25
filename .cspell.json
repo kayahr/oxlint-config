@@ -1,0 +1,23 @@
+{
+    "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/master/cspell.schema.json",
+    "version": "0.2",
+    "language": "en-US",
+    "files": [
+        "**/*"
+    ],
+    "ignorePaths": [
+        "package-lock.json"
+    ],
+    "enableFiletypes": [
+        "*"
+    ],
+    "words": [
+        "kayahr",
+        "ntest",
+        "oxlint",
+        "oxlintrc",
+        "Reimer",
+        "tsgolint"
+    ],
+    "useGitignore": true
+}

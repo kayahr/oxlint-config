@@ -1,0 +1,26 @@
+{
+    "name": "@kayahr/oxlint-config",
+    "version": "1.0.0",
+    "description": "oxlint config for @kayahr projects",
+    "type": "module",
+    "exports": "./.oxlintrc.json",
+    "license": "MIT",
+    "repository": "github:kayahr/oxlint-config",
+    "funding": "https://github.com/kayahr/oxlint-config?sponsor=1",
+    "scripts": {
+        "test": "run test:*",
+        "test:lint": "oxlint --type-aware",
+        "test:spell": "cspell --no-progress"
+    },
+    "files": [
+        ".oxlintrc.json"
+    ],
+    "devDependencies": {
+        "@kayahr/cspell": "9.2.1-bundle.2",
+        "@kayahr/npm-utils": "0.0.2"
+    },
+    "dependencies": {
+        "oxlint": "^1.18.0",
+        "oxlint-tsgolint": "^0.2.0"
+    }
+}
