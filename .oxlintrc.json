@@ -46,6 +46,7 @@
         "eslint/max-lines-per-function": "off",
         "eslint/max-params": "off",
         "eslint/no-await-in-loop": "off",
+        "eslint/no-console": "off",
         "eslint/no-continue": "off",
         "eslint/no-empty-function": "off",
         "eslint/no-eq-null": "off",
@@ -53,6 +54,7 @@
         "eslint/no-plusplus": "off",
         "eslint/no-ternary": "off",
         "eslint/no-undefined": "off",
+        "eslint/no-void": "off",
         "eslint/prefer-destructuring": "off",
         "eslint/radix": "off",
         "eslint/require-await": "off",
@@ -60,14 +62,14 @@
         "eslint/sort-keys": "off",
         "import/consistent-type-specifier-style": [
             "warn",
-            "prefer-inline"
+            "prefer-top-level"
         ],
         "import/exports-last": "off",
         "import/extensions": "off",
         "import/group-exports": "off",
         "import/no-namespace": "off",
         "import/prefer-default-export": "off",
-        "jsdoc/require-param": "warn",
+        "jsdoc/require-param": "off",
         "jsdoc/require-param-type": "off",
         "jsdoc/require-returns-type": "off",
         "oxc/no-async-await": "off",
@@ -76,6 +78,7 @@
         "oxc/no-rest-spread-properties": "off",
         "promise/avoid-new": "off",
         "promise/prefer-await-to-callbacks": "off",
+        "promise/prefer-await-to-then": "off",
         "typescript/array-type": [
             "warn",
             {
@@ -100,9 +103,12 @@
                 "multipleFileExtensions": true
             }
         ],
+        "unicorn/no-await-expression-member": "off",
         "unicorn/no-null": "off",
         "unicorn/prefer-event-target": "off",
         "unicorn/prefer-node-protocol": "warn",
-        "unicorn/prefer-number-properties": "off"
+        "unicorn/prefer-number-properties": "off",
+        "unicorn/prefer-string-raw": "off",
+        "unicorn/switch-case-braces": "off"
     }
 }
