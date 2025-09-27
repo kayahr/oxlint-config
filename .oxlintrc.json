@@ -60,10 +60,7 @@
         "eslint/require-await": "off",
         "eslint/sort-imports": "off",
         "eslint/sort-keys": "off",
-        "import/consistent-type-specifier-style": [
-            "warn",
-            "prefer-top-level"
-        ],
+        "import/consistent-type-specifier-style": "off",
         "import/exports-last": "off",
         "import/extensions": "off",
         "import/group-exports": "off",
