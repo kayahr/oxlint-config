@@ -55,6 +55,7 @@
         "eslint/no-empty-function": "off",
         "eslint/no-eq-null": "off",
         "eslint/no-magic-numbers": "off",
+        "eslint/no-param-reassign": "off",
         "eslint/no-plusplus": "off",
         "eslint/no-ternary": "off",
         "eslint/no-undefined": "off",
