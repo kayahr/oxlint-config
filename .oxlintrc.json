@@ -36,6 +36,7 @@
         "unicorn"
     ],
     "rules": {
+        "eslint/class-methods-use-this": "off",
         "eslint/eqeqeq": [
             "warn",
             "always",
@@ -43,6 +44,7 @@
                 "null": "ignore"
             }
         ],
+        "eslint/func-names": "off",
         "eslint/func-style": "off",
         "eslint/id-length": "off",
         "eslint/init-declarations": "off",
@@ -55,6 +57,7 @@
         "eslint/no-empty-function": "off",
         "eslint/no-eq-null": "off",
         "eslint/no-magic-numbers": "off",
+        "eslint/no-multi-assign": "off",
         "eslint/no-param-reassign": "off",
         "eslint/no-plusplus": "off",
         "eslint/no-ternary": "off",
@@ -87,6 +90,7 @@
         "oxc/no-reset-spread-properties": "off",
         "oxc/no-rest-spread-properties": "off",
         "promise/avoid-new": "off",
+        "promise/no-multiple-resolved": "off",
         "promise/prefer-await-to-callbacks": "off",
         "promise/prefer-await-to-then": "off",
         "typescript/array-type": [
@@ -98,10 +102,15 @@
         ],
         "typescript/explicit-function-return-type": "off",
         "typescript/no-base-to-string": "off",
+        "typescript/no-explicit-any": "off",
         "typescript/no-misused-spread": "off",
+        "typescript/no-non-null-assertion": "off",
         "typescript/no-unsafe-type-assertion": "off",
+        "typescript/no-wrapper-object-types": "off",
         "typescript/promise-function-async": "off",
         "typescript/restrict-template-expressions": "off",
+        "typescript/unbound-method": "off",
+        "unicorn/prefer-spread": "off",
         "unicorn/filename-case": [
             "warn",
             {
@@ -113,7 +122,9 @@
                 "multipleFileExtensions": true
             }
         ],
+        "unicorn/no-array-reduce": "off",
         "unicorn/no-await-expression-member": "off",
+        "unicorn/no-instanceof-builtins": "off",
         "unicorn/no-null": "off",
         "unicorn/prefer-event-target": "off",
         "unicorn/prefer-node-protocol": "warn",
