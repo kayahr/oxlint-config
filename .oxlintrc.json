@@ -52,6 +52,7 @@
         "eslint/max-lines-per-function": "off",
         "eslint/max-params": "off",
         "eslint/no-await-in-loop": "off",
+        "eslint/no-bitwise": "off",
         "eslint/no-console": "off",
         "eslint/no-continue": "off",
         "eslint/no-empty-function": "off",
@@ -126,10 +127,13 @@
         "unicorn/no-await-expression-member": "off",
         "unicorn/no-instanceof-builtins": "off",
         "unicorn/no-null": "off",
+        "unicorn/number-literal-case": "off",
+        "unicorn/numeric-separators-style": "off",
         "unicorn/prefer-event-target": "off",
         "unicorn/prefer-node-protocol": "warn",
         "unicorn/prefer-number-properties": "off",
         "unicorn/prefer-string-raw": "off",
-        "unicorn/switch-case-braces": "off"
+        "unicorn/switch-case-braces": "off",
+        "unicorn/text-encoding-identifier-case": "off"
     }
 }
