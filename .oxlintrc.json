@@ -62,8 +62,10 @@
         "eslint/no-multi-assign": "off",
         "eslint/no-param-reassign": "off",
         "eslint/no-plusplus": "off",
+        "eslint/no-return-assign": "off",
         "eslint/no-ternary": "off",
         "eslint/no-undefined": "off",
+        "eslint/no-unused-vars": "off",
         "eslint/no-void": "off",
         "eslint/prefer-destructuring": "off",
         "eslint/radix": "off",
@@ -88,6 +90,7 @@
         "jsdoc/require-param": "off",
         "jsdoc/require-param-type": "off",
         "jsdoc/require-returns-type": "off",
+        "node/no-process-env": "off",
         "oxc/no-async-await": "off",
         "oxc/no-optional-chaining": "off",
         "oxc/no-reset-spread-properties": "off",
@@ -108,12 +111,13 @@
         "typescript/no-explicit-any": "off",
         "typescript/no-misused-spread": "off",
         "typescript/no-non-null-assertion": "off",
+        "typescript/no-this-alias": "off",
         "typescript/no-unsafe-type-assertion": "off",
         "typescript/no-wrapper-object-types": "off",
         "typescript/promise-function-async": "off",
         "typescript/restrict-template-expressions": "off",
         "typescript/unbound-method": "off",
-        "unicorn/prefer-spread": "off",
+        "unicorn/consistent-function-scoping": "off",
         "unicorn/filename-case": [
             "warn",
             {
@@ -125,7 +129,11 @@
                 "multipleFileExtensions": true
             }
         ],
+        "unicorn/no-array-for-each": "off",
+        "unicorn/no-array-method-this-argument": "off",
         "unicorn/no-array-reduce": "off",
+        "unicorn/no-array-reverse": "off",
+        "unicorn/no-array-sort": "off",
         "unicorn/no-await-expression-member": "off",
         "unicorn/no-instanceof-builtins": "off",
         "unicorn/no-null": "off",
@@ -134,7 +142,9 @@
         "unicorn/prefer-event-target": "off",
         "unicorn/prefer-node-protocol": "warn",
         "unicorn/prefer-number-properties": "off",
+        "unicorn/prefer-spread": "off",
         "unicorn/prefer-string-raw": "off",
+        "unicorn/require-array-join-separator": "off",
         "unicorn/switch-case-braces": "off",
         "unicorn/text-encoding-identifier-case": "off"
     }
