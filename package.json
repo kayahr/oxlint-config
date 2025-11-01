@@ -24,11 +24,11 @@
     "devDependencies": {
         "@kayahr/cspell": "9.2.2-bundle.1",
         "@kayahr/npm-utils": "1.1.0",
-        "@types/node": "24.9.1",
+        "@types/node": "24.9.2",
         "typescript": "5.9.3"
     },
     "dependencies": {
-        "oxlint": "^1.24.0",
-        "oxlint-tsgolint": "^0.3.0"
+        "oxlint": "^1.25.0",
+        "oxlint-tsgolint": "^0.4.0"
     }
 }
