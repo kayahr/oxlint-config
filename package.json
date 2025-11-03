@@ -1,6 +1,6 @@
 {
     "name": "@kayahr/oxlint-config",
-    "version": "1.9.0",
+    "version": "1.10.0",
     "description": "Shared oxlint config for @kayahr projects",
     "type": "module",
     "exports": "./.oxlintrc.json",
