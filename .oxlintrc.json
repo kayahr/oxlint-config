@@ -78,9 +78,11 @@
         "import/exports-last": "off",
         "import/extensions": "off",
         "import/group-exports": "off",
-        "import/no-unassigned-import": "off",
+        "import/no-default-export": "off",
+        "import/no-anonymous-default-export": "off",
         "import/no-namespace": "off",
         "import/no-named-export": "off",
+        "import/no-unassigned-import": "off",
         "import/prefer-default-export": "off",
         "import/unambiguous": "off",
         "sort-imports": ["error", {
