@@ -32,7 +32,6 @@
         "node",
         "oxc",
         "promise",
-        "regex",
         "typescript",
         "unicorn"
     ],
