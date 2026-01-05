@@ -36,6 +36,13 @@
         "unicorn"
     ],
     "rules": {
+        "eslint/capitalized-comments": [
+            "warn",
+            "always",
+            {
+                "ignoreConsecutiveComments": true
+            }
+        ],
         "eslint/class-methods-use-this": "off",
         "eslint/default-case": "off",
         "eslint/eqeqeq": [
@@ -52,6 +59,7 @@
         "eslint/max-lines": "off",
         "eslint/max-lines-per-function": "off",
         "eslint/max-params": "off",
+        "eslint/max-statements": "off",
         "eslint/new-cap": "off",
         "eslint/no-await-in-loop": "off",
         "eslint/no-bitwise": "off",
@@ -84,13 +92,15 @@
         "import/no-unassigned-import": "off",
         "import/prefer-default-export": "off",
         "import/unambiguous": "off",
-        "sort-imports": ["error", {
-            "ignoreCase": false,
-            "ignoreDeclarationSort": true,
-            "ignoreMemberSort": false,
-            "memberSyntaxSortOrder": [ "none", "all", "multiple", "single" ],
-            "allowSeparatedGroups": false
-        }],
+        "sort-imports": [
+            "error", {
+                "ignoreCase": false,
+                "ignoreDeclarationSort": true,
+                "ignoreMemberSort": false,
+                "memberSyntaxSortOrder": [ "none", "all", "multiple", "single" ],
+                "allowSeparatedGroups": false
+            }
+        ],
         "jsdoc/require-param": "off",
         "jsdoc/require-param-type": "off",
         "jsdoc/require-returns-type": "off",
@@ -155,5 +165,6 @@
         "unicorn/require-array-join-separator": "off",
         "unicorn/switch-case-braces": "off",
         "unicorn/text-encoding-identifier-case": "off"
+
     }
 }
