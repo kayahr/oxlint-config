@@ -17,3 +17,6 @@ export function test3(): void {}
 // oxlint-disable-next-line capitalized-comments
 /* line 1 not-capitalized */
 export function test4(): void {}
+
+// cspell:disable-next-line
+export function jshdfkjsdhfkjs(): void {}

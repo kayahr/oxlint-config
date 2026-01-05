@@ -40,7 +40,8 @@
             "warn",
             "always",
             {
-                "ignoreConsecutiveComments": true
+                "ignoreConsecutiveComments": true,
+                "ignorePattern": "cspell:"
             }
         ],
         "eslint/class-methods-use-this": "off",
