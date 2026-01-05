@@ -20,3 +20,6 @@ export function test4(): void {}
 
 // cspell:disable-next-line
 export function jshdfkjsdhfkjs(): void {}
+
+/* node:coverage ignore next 2 */
+export function test5(): void {}

@@ -41,7 +41,7 @@
             "always",
             {
                 "ignoreConsecutiveComments": true,
-                "ignorePattern": "cspell:"
+                "ignorePattern": "(cspell:|node:coverage )"
             }
         ],
         "eslint/class-methods-use-this": "off",
