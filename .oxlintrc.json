@@ -45,6 +45,7 @@
             }
         ],
         "eslint/class-methods-use-this": "off",
+        "eslint/complexity": "off",
         "eslint/default-case": "off",
         "eslint/eqeqeq": [
             "warn",
