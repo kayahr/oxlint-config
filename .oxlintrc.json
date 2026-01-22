@@ -161,11 +161,12 @@
         "unicorn/prefer-event-target": "off",
         "unicorn/prefer-node-protocol": "warn",
         "unicorn/prefer-number-properties": "off",
+        // TODO Currently broken: https://github.com/oxc-project/oxc/issues/17968
+        "typescript/prefer-optional-chain": "off",
         "unicorn/prefer-spread": "off",
         "unicorn/prefer-string-raw": "off",
         "unicorn/require-array-join-separator": "off",
         "unicorn/switch-case-braces": "off",
         "unicorn/text-encoding-identifier-case": "off"
-
     }
 }
