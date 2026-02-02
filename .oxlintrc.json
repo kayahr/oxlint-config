@@ -89,6 +89,7 @@
         "import/group-exports": "off",
         "import/no-default-export": "off",
         "import/no-anonymous-default-export": "off",
+        "import/no-relative-parent-imports": "off",
         "import/no-namespace": "off",
         "import/no-named-export": "off",
         "import/no-nodejs-modules": "off",
