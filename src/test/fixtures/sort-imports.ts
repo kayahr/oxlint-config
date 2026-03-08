@@ -8,4 +8,5 @@ import { type A, type B,type C, a as vA, b as vB, c as vC } from "./sort-imports
 import { aTest } from "./sort-imports/a/test.ts";
 import { bTest } from "./sort-imports/b/test.ts";
 
-export { test, writeFile, readFile, a, b, vA, vB, vC, A, B, C, aTest, bTest };
+export { test, writeFile, readFile, a, b, vA, vB, vC, aTest, bTest };
+export type { A, B, C };
