@@ -78,6 +78,7 @@
         "eslint/no-shadow": "off",
         "eslint/no-ternary": "off",
         "eslint/no-undefined": "off",
+        "eslint/no-unmodified-loop-condition": "off",
         "eslint/no-unused-vars": "off",
         "eslint/no-use-before-define": "off",
         "eslint/no-void": "off",
