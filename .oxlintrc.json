@@ -133,6 +133,7 @@
         "typescript/no-base-to-string": "off",
         "typescript/no-explicit-any": "off",
         "typescript/no-extraneous-class": "off",
+        "typescript/no-invalid-void-type": "off",
         "typescript/no-misused-spread": "off",
         "typescript/no-non-null-assertion": "off",
         "typescript/no-this-alias": "off",
