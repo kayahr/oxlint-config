@@ -143,6 +143,7 @@
         "typescript/prefer-readonly-parameter-types": "off",
         "typescript/promise-function-async": "off",
         "typescript/restrict-template-expressions": "off",
+        "typescript/unified-signatures": "off",
         "typescript/unbound-method": "off",
         "unicorn/consistent-function-scoping": "off",
         "unicorn/filename-case": "off",
