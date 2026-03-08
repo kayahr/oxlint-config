@@ -143,6 +143,12 @@
         "typescript/no-unsafe-type-assertion": "off",
         "typescript/no-wrapper-object-types": "off",
         "typescript/prefer-readonly-parameter-types": "off",
+        "typescript/prefer-string-starts-ends-with": [
+            "warn",
+            {
+                "allowSingleElementEquality": "always"
+            }
+        ],
         "typescript/promise-function-async": "off",
         "typescript/restrict-template-expressions": "off",
         "typescript/unified-signatures": "off",
