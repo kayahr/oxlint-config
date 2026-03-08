@@ -130,6 +130,7 @@
                 "readonly": "array-simple"
             }
         ],
+        "typescript/consistent-return": "off",
         "typescript/explicit-function-return-type": "off",
         "typescript/no-base-to-string": "off",
         "typescript/no-explicit-any": "off",
