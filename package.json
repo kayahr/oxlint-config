@@ -14,6 +14,8 @@
         "access": "public"
     },
     "scripts": {
+        "build": "tsc",
+        "prepare": "run build",
         "test": "run test:*",
         "test:lint": "oxlint --type-aware --deny-warnings",
         "test:spell": "cspell --color --no-progress"
