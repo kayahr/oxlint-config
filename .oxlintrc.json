@@ -117,7 +117,6 @@
         "oxc/no-async-await": "off",
         "oxc/no-map-spread": "off",
         "oxc/no-optional-chaining": "off",
-        "oxc/no-reset-spread-properties": "off",
         "oxc/no-rest-spread-properties": "off",
         "promise/avoid-new": "off",
         "promise/no-multiple-resolved": "off",
