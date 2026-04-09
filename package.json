@@ -26,7 +26,7 @@
     "devDependencies": {
         "@kayahr/cspell": "9.7.0-bundle.1",
         "@kayahr/npm-utils": "1.1.2",
-        "@types/node": "25.5.0",
+        "@types/node": "25.5.2",
         "typescript": "6.0.2"
     },
     "dependencies": {
