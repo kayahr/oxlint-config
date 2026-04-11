@@ -82,6 +82,7 @@
         "eslint/no-unused-private-class-members": "off",
         "eslint/no-unused-vars": "off",
         "eslint/no-use-before-define": "off",
+        "eslint/no-useless-assignment": "off",
         "eslint/no-void": "off",
         "eslint/prefer-destructuring": "off",
         "eslint/radix": "off",
