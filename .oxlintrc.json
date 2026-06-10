@@ -36,14 +36,16 @@
         "unicorn"
     ],
     "rules": {
-        "eslint/capitalized-comments": [
-            "warn",
-            "always",
-            {
-                "ignoreConsecutiveComments": true,
-                "ignorePattern": "(cspell:|node:coverage )"
-            }
-        ],
+        // TODO Temporarily disabled because of https://github.com/oxc-project/oxc/issues/23122
+        "eslint/capitalized-comments": "off",
+        // "eslint/capitalized-comments": [
+        //     "warn",
+        //     "always",
+        //     {
+        //         "ignoreConsecutiveComments": true,
+        //         "ignorePattern": "(cspell:|node:coverage )"
+        //     }
+        // ],
         "eslint/class-methods-use-this": "off",
         "eslint/complexity": "off",
         "eslint/default-case": "off",
@@ -167,7 +169,7 @@
         "typescript/no-dynamic-delete": "off",
         "typescript/no-empty-interface": [
             "warn", {
-                "allow_single_extends": true
+                "allowSingleExtends": true
             }
         ],
         "typescript/no-empty-object-type": "off",
@@ -180,8 +182,7 @@
         "unicorn/prefer-event-target": "off",
         "unicorn/prefer-node-protocol": "warn",
         "unicorn/prefer-number-properties": "off",
-        // TODO Currently broken: https://github.com/oxc-project/oxc/issues/17968
-        "typescript/prefer-optional-chain": "off",
+        "typescript/prefer-optional-chain": "warn",
         "unicorn/prefer-spread": "off",
         "unicorn/prefer-string-raw": "off",
         "unicorn/require-array-join-separator": "off",

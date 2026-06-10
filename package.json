@@ -24,13 +24,13 @@
         ".oxlintrc.json"
     ],
     "devDependencies": {
-        "@kayahr/cspell": "9.7.0-bundle.1",
+        "@kayahr/cspell": "10.0.1-bundle.1",
         "@kayahr/npm-utils": "1.1.2",
-        "@types/node": "25.9.1",
+        "@types/node": "25.9.2",
         "typescript": "6.0.3"
     },
     "dependencies": {
-        "oxlint": "^1.66.0",
+        "oxlint": "^1.69.0",
         "oxlint-tsgolint": "^0.23.0"
     }
 }
