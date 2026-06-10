@@ -134,18 +134,28 @@
             }
         ],
         "typescript/consistent-return": "off",
+        "typescript/consistent-type-definitions": "off",
         "typescript/explicit-function-return-type": "off",
         "typescript/no-base-to-string": "off",
+        "typescript/no-dynamic-delete": "off",
+        "typescript/no-empty-interface": [
+            "warn", {
+                "allowSingleExtends": true
+            }
+        ],
+        "typescript/no-empty-object-type": "off",
         "typescript/no-explicit-any": "off",
         "typescript/no-extraneous-class": "off",
         "typescript/no-invalid-void-type": "off",
         "typescript/no-misused-spread": "off",
+        "typescript/no-namespace": "off",
         "typescript/no-non-null-assertion": "off",
         "typescript/no-this-alias": "off",
         "typescript/no-unnecessary-condition": "off",
         "typescript/no-unnecessary-type-parameters": "off",
         "typescript/no-unsafe-type-assertion": "off",
         "typescript/no-wrapper-object-types": "off",
+        "typescript/prefer-optional-chain": "warn",
         "typescript/prefer-readonly-parameter-types": "off",
         "typescript/prefer-string-starts-ends-with": [
             "warn",
@@ -158,6 +168,15 @@
         "typescript/unified-signatures": "off",
         "typescript/unbound-method": "off",
         "unicorn/consistent-function-scoping": "off",
+        "unicorn/import-style": [
+            "warn",
+            {
+                "extendDefaultStyles": true,
+                "styles": {
+                    "node:path": { "named": true }
+                }
+            }
+        ],
         "unicorn/filename-case": "off",
         "unicorn/no-array-for-each": "off",
         "unicorn/no-array-method-this-argument": "off",
@@ -165,15 +184,6 @@
         "unicorn/no-array-reverse": "off",
         "unicorn/no-array-sort": "off",
         "unicorn/no-await-expression-member": "off",
-        "typescript/consistent-type-definitions": "off",
-        "typescript/no-dynamic-delete": "off",
-        "typescript/no-empty-interface": [
-            "warn", {
-                "allowSingleExtends": true
-            }
-        ],
-        "typescript/no-empty-object-type": "off",
-        "typescript/no-namespace": "off",
         "unicorn/no-instanceof-builtins": "off",
         "unicorn/no-null": "off",
         "unicorn/no-process-exit": "off",
@@ -182,7 +192,6 @@
         "unicorn/prefer-event-target": "off",
         "unicorn/prefer-node-protocol": "warn",
         "unicorn/prefer-number-properties": "off",
-        "typescript/prefer-optional-chain": "warn",
         "unicorn/prefer-spread": "off",
         "unicorn/prefer-string-raw": "off",
         "unicorn/require-array-join-separator": "off",
