@@ -118,6 +118,7 @@
         "jsdoc/require-returns-type": "off",
         "jsx-a11y/anchor-is-valid": "off",
         "node/no-process-env": "off",
+        "node/callback-return": "off",
         "oxc/no-async-await": "off",
         "oxc/no-map-spread": "off",
         "oxc/no-optional-chaining": "off",
