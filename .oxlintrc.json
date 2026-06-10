@@ -87,6 +87,7 @@
         "eslint/no-useless-assignment": "off",
         "eslint/no-void": "off",
         "eslint/prefer-destructuring": "off",
+        "eslint/prefer-named-capture-group": "off",
         "eslint/radix": "off",
         "eslint/require-await": "off",
         "eslint/sort-keys": "off",
