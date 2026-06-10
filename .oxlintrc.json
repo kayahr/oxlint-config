@@ -136,6 +136,7 @@
         "typescript/consistent-return": "off",
         "typescript/consistent-type-definitions": "off",
         "typescript/explicit-function-return-type": "off",
+        "typescript/method-signature-style": "off",
         "typescript/no-base-to-string": "off",
         "typescript/no-dynamic-delete": "off",
         "typescript/no-empty-interface": [
