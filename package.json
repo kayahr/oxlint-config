@@ -24,7 +24,7 @@
         ".oxlintrc.json"
     ],
     "devDependencies": {
-        "@kayahr/cspell": "10.0.1-bundle.1",
+        "@kayahr/cspell": "10.0.1-bundle.2",
         "@kayahr/npm-utils": "1.1.2",
         "@types/node": "26.2.0",
         "typescript": "7.0.2"
