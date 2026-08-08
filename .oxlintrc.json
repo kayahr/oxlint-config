@@ -183,6 +183,7 @@
             }
         ],
         "unicorn/filename-case": "off",
+        "unicorn/max-nested-calls": "off",
         "unicorn/no-array-for-each": "off",
         "unicorn/no-array-method-this-argument": "off",
         "unicorn/no-array-reduce": "off",
