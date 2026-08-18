@@ -86,6 +86,7 @@
         "eslint/no-use-before-define": "off",
         "eslint/no-useless-assignment": "off",
         "eslint/no-void": "off",
+        "eslint/one-var": "off",
         "eslint/prefer-destructuring": "off",
         "eslint/prefer-named-capture-group": "off",
         "eslint/radix": "off",

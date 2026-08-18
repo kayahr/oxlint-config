@@ -30,7 +30,7 @@
         "typescript": "7.0.2"
     },
     "dependencies": {
-        "oxlint": "^1.77.0",
+        "oxlint": "^1.79.0",
         "oxlint-tsgolint": "^7.0.2001"
     }
 }
