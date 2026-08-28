@@ -26,11 +26,11 @@
     "devDependencies": {
         "@kayahr/cspell": "10.0.1-bundle.2",
         "@kayahr/npm-utils": "1.1.2",
-        "@types/node": "26.2.0",
+        "@types/node": "26.4.0",
         "typescript": "7.0.2"
     },
     "dependencies": {
-        "oxlint": "^1.79.0",
+        "oxlint": "^1.80.0",
         "oxlint-tsgolint": "^7.0.2001"
     }
 }
