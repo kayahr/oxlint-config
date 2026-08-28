@@ -192,6 +192,7 @@
         "unicorn/no-array-sort": "off",
         "unicorn/no-await-expression-member": "off",
         "unicorn/no-instanceof-builtins": "off",
+        "unicorn/no-new-array": "off",
         "unicorn/no-null": "off",
         "unicorn/no-process-exit": "off",
         "unicorn/number-literal-case": "off",
